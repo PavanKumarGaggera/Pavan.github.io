@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <meta
+      name="description"
+      content="Pavan Kumar Gaggera - AI/ML Engineer specializing in Machine Learning, Deep Learning, and NLP. Building intelligent systems and scalable AI solutions."
+    />
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Pavan Kumar Gaggera | AI Engineer">
+    <meta itemprop="description" content="AI/ML Engineer specializing in Machine Learning, Deep Learning, and NLP. Building intelligent systems and scalable AI solutions.">
+    <meta itemprop="image" content="assets/images/sharing-card.png">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://yourusername.github.io">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pavan Kumar Gaggera | AI Engineer">
+    <meta property="og:description" content="AI/ML Engineer specializing in Machine Learning, Deep Learning, and NLP. Building intelligent systems and scalable AI solutions.">
+    <meta property="og:image" content="assets/images/sharing-card.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pavan Kumar Gaggera | AI Engineer">
+    <meta name="twitter:description" content="AI/ML Engineer specializing in Machine Learning, Deep Learning, and NLP. Building intelligent systems and scalable AI solutions.">
+    <meta name="twitter:image" content="assets/images/sharing-card.png">
+
+    <link rel="shortcut icon" href="assets/images/favicons.png" type="image/png" />
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css"  />
+    <script src="script.js" defer></script>
+
+    <title>Pavan Kumar Gaggera | AI Engineer</title>
+  </head>
+
+  <body>
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#work">Projects</a></li>
+          <li class="nav-item"><a href="#experience">Experience</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item">
+            <a href="#contact" data-focused="last-focused">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <h1 class="h1">
+            <span>Hi, I'm Pavan Kumar Gaggera</span>
+            <span>AI/ML Engineer</span>
+          </h1>
+
+          <p class="header-text">
+            Specializing in Machine Learning, Deep Learning, and NLP. I build intelligent systems and deploy scalable AI solutions with a focus on healthcare applications.
+          </p>
+
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Contact Me</a>
+            <a href="#work" class="btn btn-secondary">View Projects</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="client">
+        <div class="container">
+          <h2 class="h2">Technologies I Work With</h2>
+          <div class="logos">
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/tensorflow.svg"
+                alt="TensorFlow"
+                class="logo hide to-top"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/pytorch.svg"
+                alt="PyTorch"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/python.svg"
+                alt="Python"
+                class="logo hide to-bottom"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/aws.svg"
+                alt="AWS"
+                class="logo hide to-top"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/numpy.svg"
+                alt="NumPy"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/pandas.svg"
+                alt="Pandas"
+                class="logo hide to-bottom"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/docker.svg"
+                alt="Docker"
+                class="logo hide to-top"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/kubernetes.svg"
+                alt="Kubernetes"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/spark.svg"
+                alt="Spark"
+                class="logo hide to-bottom"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">AI Projects</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <h3 class="h3">MedTech Diagnostic Assistant</h3>
+                <p class="work-text">
+                  CNN-based model trained on medical imaging data (X-rays) with 94% accuracy for pathology detection. Implemented data augmentation to address class imbalance.
+                </p>
+                <ol class="work-technologies">
+                  <li>Python</li>
+                  <li>TensorFlow</li>
+                  <li>DICOM Imaging</li>
+                  <li>Data Augmentation</li>
+                </ol>
+                <div class="work-links">
+                  <a href="#" target="_blank" rel="noopener" class="link"
+                    >View Project Details</a
+                  >
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/medical-ai.webp"
+                  alt="MedTech Diagnostic Assistant"
+                />
+              </picture>
+            </div>
+            <div class="work-box">
+              <div class="work-textbox">
+                <h3 class="h3">Generative AI Visual Assistant</h3>
+                <p class="work-text">
+                  Multimodal AI system combining LLMs with computer vision for enhanced content understanding. Reduced harmful outputs by 25% via toxicity filters.
+                </p>
+                <ol class="work-technologies">
+                  <li>AWS Bedrock</li>
+                  <li>RAG</li>
+                  <li>OpenCV</li>
+                  <li>LLMs</li>
+                </ol>
+                <div class="work-links">
+                  <a href="#" target="_blank" rel="noopener" class="link"
+                    >View Live Demo</a
+                  >
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/generative-ai.webp"
+                  alt="Generative AI Visual Assistant"
+                />
+              </picture>
+            </div>
+            <div class="work-box">
+              <div class="work-textbox">
+                <h3 class="h3">Healthcare Anomaly Detection</h3>
+                <p class="work-text">
+                  Real-time anomaly detection for healthcare IoT devices achieving 92% accuracy with sub-second latency. Optimized data preprocessing workflows.
+                </p>
+                <ol class="work-technologies">
+                  <li>PyTorch</li>
+                  <li>AWS EMR</li>
+                  <li>Spark</li>
+                  <li>Time-Series Analysis</li>
+                </ol>
+                <div class="work-links">
+                  <a href="#" target="_blank" rel="noopener" class="link"
+                    >View Case Study</a
+                  >
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/anomaly-detection.webp"
+                  alt="Healthcare Anomaly Detection"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="experience">
+        <div class="container">
+          <h2 class="h2">Professional Experience</h2>
+          
+          <div class="experience-item">
+            <h3 class="h3">AI Prompt Engineer & Research Intern</h3>
+            <p class="company">Oracle Air Check, LLC | Remote, USA | Jan 2025 – April 2025</p>
+            <ul class="experience-details">
+              <li>Built ML-based content moderation systems (TensorFlow) with 40% reduction in false positives</li>
+              <li>Automated A/B testing frameworks for model evaluation (p<0.01), accelerating iterative improvements by 20 hrs/week</li>
+            </ul>
+          </div>
+          
+          <div class="experience-item">
+            <h3 class="h3">AI/ML Researcher & Graduate Assistant</h3>
+            <p class="company">Lewis University | Romeoville, IL, USA | Mar 2023 – Dec 2024</p>
+            <ul class="experience-details">
+              <li>Developed predictive models for healthcare data using PyTorch, achieving 95% recall in early disease detection</li>
+              <li>Engineered data preprocessing pipelines reducing noise by 30% via PCA and outlier detection</li>
+              <li>Published research on ML model interpretability for clinical decision support using SHAP and LIME</li>
+            </ul>
+          </div>
+          
+          <div class="experience-item">
+            <h3 class="h3">Software Engineer, AI/ML</h3>
+            <p class="company">Wipro | Hyderabad, India | Jan 2022 – Dec 2022</p>
+            <ul class="experience-details">
+              <li>Designed real-time anomaly detection models achieving 92% accuracy with sub-second latency</li>
+              <li>Optimized data preprocessing workflows, reducing feature engineering time by 50%</li>
+              <li>Migrated legacy batch processing to AWS EMR, reducing costs by 20% while improving throughput</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">Technical Skills</h2>
+          <div class="skills-imgs">
+            <img src="assets/images/skills/python.webp" alt="Python" class="skills-img" loading="lazy" title="Python">
+            <img src="assets/images/skills/tensorflow.webp" alt="TensorFlow" class="skills-img" loading="lazy" title="TensorFlow">
+            <img src="assets/images/skills/pytorch.webp" alt="PyTorch" class="skills-img" loading="lazy" title="PyTorch">
+            <img src="assets/images/skills/aws.webp" alt="AWS" class="skills-img" loading="lazy" title="AWS">
+            <img src="assets/images/skills/docker.webp" alt="Docker" class="skills-img" loading="lazy" title="Docker">
+            <img src="assets/images/skills/kubernetes.webp" alt="Kubernetes" class="skills-img" loading="lazy" title="Kubernetes">
+            <img src="assets/images/skills/spark.webp" alt="Spark" class="skills-img" loading="lazy" title="Spark">
+            <img src="assets/images/skills/nlp.webp" alt="NLP" class="skills-img" loading="lazy" title="NLP">
+            <img src="assets/images/skills/pandas.webp" alt="Pandas" class="skills-img" loading="lazy" title="Pandas">
+            <img src="assets/images/skills/numpy.webp" alt="NumPy" class="skills-img" loading="lazy" title="NumPy">
+          </div>
+          
+          <div class="skills-categories">
+            <div class="skills-category">
+              <h3 class="h4">Programming</h3>
+              <ul>
+                <li>Python</li>
+                <li>Java</li>
+              </ul>
+            </div>
+            
+            <div class="skills-category">
+              <h3 class="h4">AI/ML</h3>
+              <ul>
+                <li>NLP</li>
+                <li>Scikit-Learn</li>
+                <li>PyTorch</li>
+                <li>TensorFlow</li>
+                <li>LLMs</li>
+                <li>Langchain</li>
+              </ul>
+            </div>
+            
+            <div class="skills-category">
+              <h3 class="h4">Cloud & MLOps</h3>
+              <ul>
+                <li>AWS (Lambda, EC2, SQS, S3)</li>
+                <li>Airflow</li>
+                <li>Kafka</li>
+                <li>Spark</li>
+                <li>Kubernetes</li>
+                <li>Docker</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="education">
+        <div class="container">
+          <h2 class="h2">Education</h2>
+          
+          <div class="education-item">
+            <h3 class="h3">MS in Data Science</h3>
+            <p class="institution">Lewis University, Romeoville, IL, USA</p>
+            <p class="duration">Jan 2022 – Dec 2024</p>
+          </div>
+          
+          <div class="education-item">
+            <h3 class="h3">BS in Computer Science</h3>
+            <p class="institution">St. Peter's Engineering College, Hyderabad, India</p>
+            <p class="duration">July 2018 – July 2022</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Get In Touch</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Available for AI/ML opportunities
+              </strong>
+              <p class="contact-text">
+                I'm passionate about building intelligent systems that solve real-world problems, particularly in healthcare and MedTech applications. If you have an interesting AI challenge or collaboration opportunity, I'd love to hear about it.
+              </p>
+              <p class="contact-text">
+                When I'm not building models, I contribute to open-source AI projects and write about machine learning interpretability and ethical AI.
+              </p>
+              
+              <div class="contact-info">
+                <p><strong>Email:</strong> pavank.gaggera@gmail.com</p>
+                <p><strong>Phone:</strong> 773-543-1890</p>
+                <p><strong>Location:</strong> Chicago, IL</p>
+              </div>
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a title="GitHub" href="https://github.com/yourusername" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/github.svg"
+                    alt="GitHub"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="LinkedIn" href="https://www.linkedin.com/in/yourprofile/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/linkedin.svg"
+                    alt="LinkedIn"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Twitter" href="https://twitter.com/yourhandle" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/twitter.svg"
+                    alt="Twitter"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Email" href="mailto:pavank.gaggera@gmail.com" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/email.svg"
+                    alt="Email"
+                /></a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; <span>2024</span> - Pavan Kumar Gaggera. All rights reserved.
+          </p>
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch"/>
+          </label>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
