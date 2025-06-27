@@ -1,450 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow" />
-
-    <meta
-      name="description"
-      content="Pavan Kumar Gaggera - Gen AI Engineer specializing in Machine Learning, Deep Learning, and NLP. Building intelligent systems and scalable AI solutions."
-    />
-
-    <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="Pavan Gaggera | Gen AI Engineer">
-    <meta itemprop="description" content="Gen AI Engineer specializing in Machine Learning, Deep Learning, and NLP. Building intelligent systems and scalable AI solutions.">
-    <meta itemprop="image" content="assets/images/sharing-card.png">
-
-    <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://pavan.github.io">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan Gaggera | Generative AI Engineer</title>
+    <meta name="description" content="Generative AI Engineer specializing in LLMs, RAG systems, and Agentic AI workflows. Building production-ready AI solutions for enterprise applications.">
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Pavan Gaggera | Gen AI Engineer">
-    <meta property="og:description" content="Gen AI Engineer specializing in Machine Learning, Deep Learning, and NLP. Building intelligent systems and scalable AI solutions.">
-    <meta property="og:image" content="assets/images/sharing-card.png">
+    <meta property="og:url" content="https://pavankumargaggera.github.io/">
+    <meta property="og:title" content="Pavan Gaggera | Generative AI Engineer">
+    <meta property="og:description" content="Specializing in LLMs, RAG systems, and Agentic AI. Building production-ready AI solutions.">
+    <meta property="og:image" content="https://pavankumargaggera.github.io/assets/images/social-preview.jpg">
 
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Pavan Gaggera | Gen AI Engineer">
-    <meta name="twitter:description" content="Gen AI Engineer specializing in Machine Learning, Deep Learning, and NLP. Building intelligent systems and scalable AI solutions.">
-    <meta name="twitter:image" content="assets/images/sharing-card.png">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pavankumargaggera.github.io/">
+    <meta property="twitter:title" content="Pavan Gaggera | Generative AI Engineer">
+    <meta property="twitter:description" content="Specializing in LLMs, RAG systems, and Agentic AI. Building production-ready AI solutions.">
+    <meta property="twitter:image" content="https://pavankumargaggera.github.io/assets/images/social-preview.jpg">
 
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container container">
+            <a href="#" class="logo">PG</a>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact" class="btn btn-cta">Contact</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
 
-    <link
-      rel="preload"
-      href="assets/fonts/Mona-Sans.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-
-    <link rel="stylesheet" href="style.css"  />
-    <script src="script.js" defer></script>
-
-    <title>Pavan Gaggera | Gen AI Engineer</title>
-  </head>
-
-  <body>
-    <script>
-      const theme = localStorage.getItem("theme") || "dark";
-      document.body.classList.add(theme);
-    </script>
-
-    <header class="header">
-      <div class="menu-btn-container">
+    <header>
         <div class="container">
-          <button type="button"  class="menu-btn">menu</button>
+            <div class="header-content">
+                <p class="intro">Hi, my name is</p>
+                <h1>Pavan Gaggera.</h1>
+                <h2 class="tagline">I build intelligent AI systems.</h2>
+                <p class="description">
+                    Generative AI Engineer specializing in Large Language Models, RAG architectures, and Agentic AI workflows. 
+                    Focused on building production-ready solutions with measurable business impact.
+                </p>
+                <div class="specializations">
+                    <span class="badge">LLM Architectures</span>
+                    <span class="badge">RAG Systems</span>
+                    <span class="badge">Agentic AI</span>
+                    <span class="badge">Document Intelligence</span>
+                </div>
+                <div class="header-btns">
+                    <a href="#projects" class="btn btn-cta">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <nav class="nav hidden">
-        <ol class="nav-items">
-          <li class="nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#work">Projects</a></li>
-          <li class="nav-item"><a href="#experience">Experience</a></li>
-          <li class="nav-item"><a href="#skills">Skills</a></li>
-          <li class="nav-item">
-            <a href="#contact" data-focused="last-focused">Contact</a>
-          </li>
-        </ol>
-      </nav>
-
-      <div class="container">
-        <div class="header-textbox">
-          <h1 class="h1">
-            <span>Hi, I'm Pavan</span>
-            <span>Gen AI Engineer</span>
-          </h1>
-
-          <p class="header-text">
-            Specializing in Machine Learning, Deep Learning, and NLP. I build intelligent systems and deploy scalable AI solutions with a focus on healthcare applications.
-          </p>
-
-          <div class="header-btns">
-            <a href="#contact" class="btn btn-cta">Contact Me</a>
-            <a href="#work" class="btn btn-secondary">View Projects</a>
-          </div>
-        </div>
-      </div>
     </header>
 
-    <main>
-      <section class="client">
+    <section class="metrics">
         <div class="container">
-          <h2 class="h2">Technologies I Work With</h2>
-          <div class="logos">
-            <div class="logo-group">
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/tensorflow.svg"
-                alt="TensorFlow"
-                class="logo hide to-top"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/gcp.svg"
-                alt="Google Cloud"
-                class="logo hide to-top"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/pytorch.svg"
-                alt="PyTorch"
-                class="logo"
-              />
-            </div>
-            <div class="logo-group">
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/python.svg"
-                alt="Python"
-                class="logo hide to-bottom"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/aws.svg"
-                alt="AWS"
-                class="logo hide to-top"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/numpy.svg"
-                alt="NumPy"
-                class="logo"
-              />
-            </div>
-            <div class="logo-group">
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/pandas.svg"
-                alt="Pandas"
-                class="logo hide to-bottom"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/docker.svg"
-                alt="Docker"
-                class="logo hide to-top"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/kubernetes.svg"
-                alt="Kubernetes"
-                class="logo"
-              />
-            </div>
-            <div class="logo-group">
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/mysql.svg"
-                alt="Sql"
-                class="logo hide to-bottom"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/crewai.svg"
-                alt="CrewAI"
-                class="logo hide to-bottom"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/geminiai.svg"
-                alt="Gemini"
-                class="logo hide to-bottom"
-              />
-            </div>
-            <div class="logo-group">
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/git.svg"
-                alt="Git"
-                class="logo hide to-bottom"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/huggingface.svg"
-                alt="HuggingFace"
-                class="logo hide to-bottom"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/java.svg"
-                alt="Java"
-                class="logo hide to-bottom"
-              />
-            </div>
-            <div class="logo-group">
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/langchain.svg"
-                alt="Langchain"
-                class="logo hide to-bottom"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/openai.svg"
-                alt="Open AI"
-                class="logo hide to-bottom"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/scikitlearn.svg"
-                alt="ScikitLearn"
-                class="logo hide to-bottom"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="work">
-        <div class="container">
-          <h2 class="h2" id="work">AI Projects</h2>
-          <div class="work-boxes">
-            <div class="work-box">
-              <div class="work-textbox">
-                <h3 class="h3">MedTech Diagnostic Assistant</h3>
-                <p class="work-text">
-                  CNN-based model trained on medical imaging data (X-rays) with 94% accuracy for pathology detection. Implemented data augmentation to address class imbalance.
-                </p>
-                <ol class="work-technologies">
-                  <li>Python</li>
-                  <li>TensorFlow</li>
-                  <li>DICOM Imaging</li>
-                  <li>Data Augmentation</li>
-                </ol>
-                <div class="work-links">
-                  <a href="https://github.com/PavanKumarGaggera/Leveraging-Deep-Learning-for-Pneumonia-Detection-in-Lung-Imaging" target="_blank" rel="noopener" class="link"
-                    >View Project Details</a
-                  >
-                  <a
-                    href="https://github.com/PavanKumarGaggera/Leveraging-Deep-Learning-for-Pneumonia-Detection-in-Lung-Imaging"
-                    target="_blank"
-                    rel="noopener"
-                    title="Source code"
-                  >
-                    <img
-                      src="assets/images/social-links/github.svg"
-                      alt="GitHub"
-                      loading="lazy"
-                    />
-                  </a>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">40%</div>
+                    <div class="metric-label">Reduction in false positives</div>
                 </div>
-              </div>
-              <picture class="work-img">
-                <img
-                  loading="lazy"
-                  src="assets/images/work/xray.jpg"
-                  alt="MedTech Diagnostic Assistant"
-                />
-              </picture>
-            </div>
-            <div class="work-box">
-              <div class="work-textbox">
-                <h3 class="h3">Generative AI Visual Assistant</h3>
-                <p class="work-text">
-                  Multimodal AI system combining LLMs with computer vision for enhanced content understanding. Reduced harmful outputs by 25% via toxicity filters.
-                </p>
-                <ol class="work-technologies">
-                  <li>AWS Bedrock</li>
-                  <li>RAG</li>
-                  <li>OpenCV</li>
-                  <li>LLMs</li>
-                </ol>
-                <div class="work-links">
-                  <a href="https://github.com/PavanKumarGaggera/RAG-Chatbot-With-Amazon-Bedrock" target="_blank" rel="noopener" class="link"
-                    >View Project Details</a
-                  >
-                  <a
-                    href="https://github.com/PavanKumarGaggera/RAG-Chatbot-With-Amazon-Bedrock"
-                    target="_blank"
-                    rel="noopener"
-                    title="Source code"
-                  >
-                    <img
-                      src="assets/images/social-links/github.svg"
-                      alt="GitHub"
-                      loading="lazy"
-                    />
-                  </a>
+                <div class="metric-card">
+                    <div class="metric-value">35%</div>
+                    <div class="metric-label">Faster report generation</div>
                 </div>
-              </div>
-              <picture class="work-img">
-                <img
-                  loading="lazy"
-                  src="assets/images/work/AWS.jpg"
-                  alt="Generative AI Visual Assistant"
-                />
-              </picture>
-            </div>
-            <div class="work-box">
-              <div class="work-textbox">
-                <h3 class="h3">Healthcare Anomaly Detection</h3>
-                <p class="work-text">
-                  Real-time anomaly detection for healthcare IoT devices achieving 92% accuracy with sub-second latency. Optimized data preprocessing workflows.
-                </p>
-                <ol class="work-technologies">
-                  <li>PyTorch</li>
-                  <li>AWS EMR</li>
-                  <li>Spark</li>
-                  <li>Time-Series Analysis</li>
-                </ol>
-                <div class="work-links">
-                  <a href="#" target="_blank" rel="noopener" class="link"
-                    >View Case Study</a
-                  >
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener"
-                    title="Source code"
-                  >
-                    <img
-                      src="assets/images/social-links/github.svg"
-                      alt="GitHub"
-                      loading="lazy"
-                    />
-                  </a>
+                <div class="metric-card">
+                    <div class="metric-value">92%</div>
+                    <div class="metric-label">Anomaly detection accuracy</div>
                 </div>
-              </div>
-              <picture class="work-img">
-                <img
-                  loading="lazy"
-                  src="assets/images/work/anomaly-detection.webp"
-                  alt="Healthcare Anomaly Detection"
-                />
-              </picture>
+                <div class="metric-card">
+                    <div class="metric-value">50%</div>
+                    <div class="metric-label">Reduced manual intervention</div>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section id="experience" class="experience">
+    <section id="projects" class="projects">
         <div class="container">
-          <h2 class="h2">Professional Experience</h2>
-          
-          <div class="experience-item">
-            <h3 class="h3">AI Prompt Engineer & Research Intern</h3>
-            <p class="company">Oracle Air Check, LLC | Remote, USA | Jan 2025 – April 2025</p>
-            <ul class="experience-details">
-              <li>Built ML-based content moderation systems (TensorFlow) with 40% reduction in false positives</li>
-              <li>Automated A/B testing frameworks for model evaluation (p<0.01), accelerating iterative improvements by 20 hrs/week</li>
-            </ul>
-          </div>
-          
-          <div class="experience-item">
-            <h3 class="h3">AI/ML Researcher & Graduate Assistant</h3>
-            <p class="company">Lewis University | Romeoville, IL, USA | Mar 2023 – Dec 2024</p>
-            <ul class="experience-details">
-              <li>Developed predictive models for healthcare data using PyTorch, achieving 95% recall in early disease detection</li>
-              <li>Engineered data preprocessing pipelines reducing noise by 30% via PCA and outlier detection</li>
-              <li>Published research on ML model interpretability for clinical decision support using SHAP and LIME</li>
-            </ul>
-          </div>
-          
-          <div class="experience-item">
-            <h3 class="h3">Software Engineer, AI/ML</h3>
-            <p class="company">Wipro | Hyderabad, India | Jan 2022 – Dec 2022</p>
-            <ul class="experience-details">
-              <li>Designed real-time anomaly detection models achieving 92% accuracy with sub-second latency</li>
-              <li>Optimized data preprocessing workflows, reducing feature engineering time by 50%</li>
-              <li>Migrated legacy batch processing to AWS EMR, reducing costs by 20% while improving throughput</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+            <h2>Featured AI Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/images/projects/agentic.jpg" alt="Agentic AI Workflow">
+                    </div>
+                    <div class="project-content">
+                        <h3>Agentic AI Workflow Automation</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">LangChain</span>
+                            <span class="project-tag">AutoGen</span>
+                            <span class="project-tag">GPT-4</span>
+                        </div>
+                        <p>Built multi-step reasoning agents for automated decision-making with dynamic knowledge retrieval using Pinecone vector search.</p>
+                        <div class="project-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-robot"></i>
+                                <span>Reduced manual intervention by 50% in complex workflows</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-search"></i>
+                                <span>35% improvement in retrieval accuracy with hybrid search</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline">View Architecture</a>
+                        </div>
+                    </div>
+                </div>
 
-      <section class="skills">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/images/projects/document-ai.jpg" alt="Document AI System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Document AI for Unstructured Data</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">LayoutLM</span>
+                            <span class="project-tag">Donut</span>
+                            <span class="project-tag">Tesseract</span>
+                        </div>
+                        <p>Converted scanned PDFs & images into structured data using Vision LLMs with 90% accuracy in document classification.</p>
+                        <div class="project-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-file-alt"></i>
+                                <span>40% improvement in data usability from unstructured sources</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-clock"></i>
+                                <span>30% faster processing compared to manual extraction</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/images/projects/clinical-ai.jpg" alt="Clinical Documentation Assistant">
+                    </div>
+                    <div class="project-content">
+                        <h3>Clinical Documentation Assistant</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">LangChain</span>
+                            <span class="project-tag">FAISS</span>
+                            <span class="project-tag">Claude</span>
+                        </div>
+                        <p>RAG-powered system for healthcare documentation that reduced report generation time by 35% while maintaining accuracy.</p>
+                        <div class="project-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-hospital"></i>
+                                <span>40% reduction in documentation errors</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>HIPAA-compliant architecture with PHI redaction</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
         <div class="container">
-          <h2 class="h2" id="skills">Technical Skills</h2>
-          <div class="skills-imgs">
-            <img src="assets/images/skills/python.webp" alt="Python" class="skills-img" loading="lazy" title="Python">
-            <img src="assets/images/skills/tensorflow.webp" alt="TensorFlow" class="skills-img" loading="lazy" title="TensorFlow">
-            <img src="assets/images/skills/pytorch.webp" alt="PyTorch" class="skills-img" loading="lazy" title="PyTorch">
-            <img src="assets/images/skills/aws.webp" alt="AWS" class="skills-img" loading="lazy" title="AWS">
-            <img src="assets/images/skills/docker.webp" alt="Docker" class="skills-img" loading="lazy" title="Docker">
-            <img src="assets/images/skills/kubernetes.webp" alt="Kubernetes" class="skills-img" loading="lazy" title="Kubernetes">
-            <img src="assets/images/skills/spark.webp" alt="Spark" class="skills-img" loading="lazy" title="Spark">
-            <img src="assets/images/skills/nlp.webp" alt="NLP" class="skills-img" loading="lazy" title="NLP">
-            <img src="assets/images/skills/pandas.webp" alt="Pandas" class="skills-img" loading="lazy" title="Pandas">
-            <img src="assets/images/skills/numpy.webp" alt="NumPy" class="skills-img" loading="lazy" title="NumPy">
-          </div>
-          
-          <div class="skills-categories">
-            <div class="skills-category">
-              <h3 class="h4">Programming</h3>
-              <ul>
-                <li>Python</li>
-                <li>Java</li>
-              </ul>
-            </div>
-            
-            <div class="skills-category">
-              <h3 class="h4">AI/ML</h3>
-              <ul>
-                <li>NLP</li>
-                <li>Scikit-Learn</li>
-                <li>PyTorch</li>
-                <li>TensorFlow</li>
-                <li>LLMs</li>
-                <li>Langchain</li>
-              </ul>
-            </div>
-            
-            <div class="skills-category">
-              <h3 class="h4">Cloud & MLOps</h3>
-              <ul>
-                <li>AWS (Lambda, EC2, SQS, S3)</li>
-                <li>Airflow</li>
-                <li>Kafka</li>
-                <li>Spark</li>
-                <li>Kubernetes</li>
-                <li>Docker</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+            <h2>Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025</div>
+                    <div class="timeline-content">
+                        <h3>Generative AI Engineer</h3>
+                        <p class="company">Oracle Air Check, LLC</p>
+                        <ul>
+                            <li>Developed LLM-based content moderation systems reducing false positives by 40% using Claude & GPT models</li>
+                            <li>Built RAG-powered clinical documentation assistant cutting report generation time by 35% with LangChain & FAISS</li>
+                            <li>Implemented toxicity filters reducing harmful outputs by 25% via RLHF tuning techniques</li>
+                            <li>Automated model evaluation frameworks accelerating iteration cycles by 20 hrs/week</li>
+                        </ul>
+                    </div>
+                </div>
 
-      <section class="education">
+                <div class="timeline-item">
+                    <div class="timeline-date">2023-24</div>
+                    <div class="timeline-content">
+                        <h3>AI/ML Researcher & Graduate Assistant</h3>
+                        <p class="company">Lewis University</p>
+                        <ul>
+                            <li>Designed RAG-based knowledge management systems improving retrieval accuracy by 35% using LLaMA-2 & vector search</li>
+                            <li>Engineered predictive maintenance models with 95% recall in anomaly detection scenarios</li>
+                            <li>Reduced bias in AI systems by 25% via ethical AI auditing with Claude model</li>
+                            <li>Published research on ML model interpretability for clinical decision support</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer, AI/ML</h3>
+                        <p class="company">Wipro</p>
+                        <ul>
+                            <li>Developed real-time anomaly detection achieving 92% accuracy with sub-second latency using PyTorch & AWS EMR</li>
+                            <li>Built LLM-powered document summarization reducing processing time by 40%</li>
+                            <li>Optimized Spark workflows cutting feature engineering time by 50%</li>
+                            <li>Migrated legacy batch processing to AWS EMR reducing costs by 20%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
         <div class="container">
-          <h2 class="h2">Education</h2>
-          
-          <div class="education-item">
-            <h3 class="h3">MS in Data Science</h3>
-            <p class="institution">Lewis University, Romeoville, IL, USA</p>
-            <p class="duration">Jan 2022 – Dec 2024</p>
-          </div>
-          
-          <div class="education-item">
-            <h3 class="h3">BS in Computer Science</h3>
-            <p class="institution">St. Peter's Engineering College, Hyderabad, India</p>
-            <p class="duration">July 2018 – July 2022</p>
-          </div>
-        </div>
-      </section>
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skills-category">
+                    <h3>Generative AI</h3>
+                    <ul>
+                        <li>LLMs (Claude, GPT, LLaMA, Mistral)</li>
+                        <li>RAG Architectures</li>
+                        <li>Prompt Engineering</li>
+                        <li>LangChain/AutoGen/CrewAI</li>
+                        <li>Agentic Workflows</li>
+                        <li>RLHF Tuning</li>
+                    </ul>
+                </div>
 
+                <div class="skills-category">
+                    <h3>Document AI</h3>
+                    <ul>
+                        <li>OCR (Tesseract, EasyOCR)</li>
+                        <li>LayoutLM/Donut</li>
+                        <li>Document Parsing</li>
+                        <li>Structured Data Extraction</li>
+                        <li>Form Understanding</li>
+                        <li>Knowledge Graph Construction</li>
+                    </ul>
+                </div>
+
+                <div class="skills-category">
+                    <h3>MLOps & Cloud</h3>
+                    <ul>
+                        <li>AWS (Lambda, EMR, S3)</li>
+                        <li>Azure OpenAI</li>
+                        <li>Vector DBs (FAISS, Pinecone)</li>
+                        <li>Kubernetes/Docker</li>
+                        <li>Airflow/MLflow</li>
+                        <li>CI/CD Pipelines</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="principles">
+        <div class="container">
+            <h2>AI Development Principles</h2>
+            <div class="principles-grid">
+                <div class="principle-card">
+                    <div class="principle-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Agentic First</h3>
+                    <p>Designing autonomous systems that can plan, reason, and act with minimal human intervention</p>
+                </div>
+
+                <div class="principle-card">
+                    <div class="principle-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Safety by Design</h3>
+                    <p>Building guardrails and monitoring for responsible AI deployment</p>
+                </div>
+
+                <div class="principle-card">
+                    <div class="principle-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Measurable Impact</h3>
+                    <p>Focusing on quantifiable business outcomes and ROI from AI systems</p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
       <section class="contact">
         <div class="container">
           <h2 class="h2" id="contact">Get In Touch</h2>
