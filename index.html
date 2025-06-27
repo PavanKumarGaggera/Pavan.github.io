@@ -1,445 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow" />
-
-    <meta
-      name="description"
-      content="Pavan Gaggera - Generative AI Engineer specializing in Large Language Models, RAG architectures, and Agentic AI workflows. Building production-ready AI solutions."
-    />
-
-    <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="Pavan Gaggera - AI Engineer">
-    <meta itemprop="description" content="Generative AI Engineer specializing in Large Language Models, RAG architectures, and Agentic AI workflows. Building production-ready AI solutions.">
-    <meta itemprop="image" content="assets/images/sharing-card.png">
-
-    <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://yourportfolio.com">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Pavan Gaggera - AI Engineer">
-    <meta property="og:description" content="Generative AI Engineer specializing in Large Language Models, RAG architectures, and Agentic AI workflows.">
-    <meta property="og:image" content="assets/images/sharing-card.png">
-
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Pavan Gaggera - AI Engineer">
-    <meta name="twitter:description" content="Generative AI Engineer specializing in Large Language Models, RAG architectures, and Agentic AI workflows.">
-    <meta name="twitter:image" content="assets/images/sharing-card.png">
-
-    <link rel="shortcut icon" href="assets/images/favicons.png" type="image/png" />
-
-    <!-- Preloading fonts -->
-    <link rel="preload" href="assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin />
-
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pavan Gaggera - Generative AI Engineer</title>
-  </head>
-
-  <body>
-    <script>
-      const theme = localStorage.getItem("theme") || "dark";
-      document.body.classList.add(theme);
-    </script>
-
-    <header class="header">
-      <div class="menu-btn-container">
-        <div class="container">
-          <button type="button" class="menu-btn">menu</button>
-        </div>
-      </div>
-
-      <nav class="nav hidden">
-        <ol class="nav-items">
-          <li class="nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#work">My Work</a></li>
-          <li class="nav-item"><a href="#experience">Experience</a></li>
-          <li class="nav-item"><a href="#research">Research</a></li>
-          <li class="nav-item"><a href="#skills">My Skills</a></li>
-          <li class="nav-item">
-            <a href="#contact" data-focused="last-focused">Contact</a>
-          </li>
-        </ol>
-      </nav>
-
-      <div class="container">
-        <div class="header-textbox">
-          <h1 class="h1">
-            <span>Hi, I'm Pavan Gaggera</span>
-            <span>Generative AI Engineer</span>
-          </h1>
-
-          <p class="header-text">
-            I build intelligent AI systems specializing in Large Language Models, RAG architectures, 
-            and Agentic AI workflows. Focused on creating production-ready solutions with measurable business impact.
-          </p>
-
-          <div class="header-btns">
-            <a href="#contact" class="btn btn-cta">Hire me</a>
-            <a href="#work" class="btn btn-secondary">See my work</a>
-          </div>
-        </div>
-      </div>
+</head>
+<body>
+    <header>
+        <h1>Pavan Gaggera</h1>
+        <p>Generative AI Engineer specializing in Large Language Models, RAG architectures, and Agentic AI workflows</p>
+        <p>Email: your.email@example.com | Phone: (123) 456-7890 | Location: Your City, Country</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile | GitHub: github.com/yourusername</p>
     </header>
 
     <main>
-      <section class="client">
-        <div class="container">
-          <h2 class="h2">Trusted by</h2>
-          <div class="logos">
-            <div class="logo-group">
-              <img loading="lazy" src="assets/images/trusted-by/openai.svg" alt="OpenAI" class="logo hide to-top" />
-              <img loading="lazy" src="assets/images/trusted-by/anthropic.svg" alt="Anthropic" class="logo" />
-              <img loading="lazy" src="assets/images/trusted-by/databricks.svg" alt="Databricks" class="logo hide to-bottom" />
-            </div>
-            <div class="logo-group">
-              <img loading="lazy" src="assets/images/trusted-by/nvidia.svg" alt="NVIDIA" class="logo hide to-top" />
-              <img loading="lazy" src="assets/images/trusted-by/huggingface.svg" alt="Hugging Face" class="logo" />
-              <img loading="lazy" src="assets/images/trusted-by/langchain.svg" alt="LangChain" class="logo hide to-bottom" />
-            </div>
-            <div class="logo-group">
-              <img loading="lazy" src="assets/images/trusted-by/cohere.svg" alt="Cohere" class="logo hide to-top" />
-              <img loading="lazy" src="assets/images/trusted-by/pinecone.svg" alt="Pinecone" class="logo" />
-              <img loading="lazy" src="assets/images/trusted-by/weaviate.svg" alt="Weaviate" class="logo hide to-bottom" />
-            </div>
-          </div>
-        </div>
-      </section>
+        <section id="summary">
+            <h2>Professional Summary</h2>
+            <p>Experienced AI Engineer with expertise in building production-grade LLM applications, RAG systems, and autonomous agent workflows. Focused on delivering measurable business impact through cutting-edge AI solutions.</p>
+        </section>
 
-      <section class="work">
-        <div class="container">
-          <h2 class="h2" id="work">Selected Work</h2>
-          <div class="work-boxes">
-            <div class="work-box">
-              <div class="work-textbox">
-                <h3 class="h3">Enterprise RAG System</h3>
-                <p class="work-text">
-                  A production-grade Retrieval Augmented Generation system for enterprise knowledge management with hybrid search capabilities.
-                </p>
-                <ol class="work-technologies">
-                  <li>Llama 2</li>
-                  <li>LangChain</li>
-                  <li>Pinecone</li>
-                  <li>FastAPI</li>
-                </ol>
-                <div class="work-links">
-                  <a href="#" target="_blank" rel="noopener" class="link">Explore this project</a>
-                  <a href="#" target="_blank" rel="noopener" title="Source code">
-                    <img src="assets/images/social-links/github.svg" alt="GitHub" loading="lazy" />
-                  </a>
-                </div>
-              </div>
-              <picture class="work-img">
-                <img loading="lazy" src="assets/images/work/rag-system.webp" alt="Enterprise RAG System" />
-              </picture>
-            </div>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> Python, JavaScript, SQL</li>
+                <li><strong>AI/ML:</strong> PyTorch, TensorFlow, Transformers, LangChain, LlamaIndex</li>
+                <li><strong>LLMs:</strong> OpenAI GPT, Anthropic Claude, Llama 2, Mistral</li>
+                <li><strong>RAG:</strong> Pinecone, Weaviate, FAISS, Hybrid Search</li>
+                <li><strong>Tools:</strong> Docker, Kubernetes, FastAPI, Airflow</li>
+                <li><strong>Cloud:</strong> AWS, GCP, Azure AI Services</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
             
-            <div class="work-box">
-              <div class="work-textbox">
-                <h3 class="h3">Agentic Workflow Framework</h3>
-                <p class="work-text">A framework for building autonomous AI agents with memory, tools, and planning capabilities.</p>
-                <ol class="work-technologies">
-                  <li>GPT-4</li>
-                  <li>AutoGen</li>
-                  <li>LangGraph</li>
-                </ol>
-                <div class="work-links">
-                  <a href="#" target="_blank" rel="noopener" class="link">Explore this project</a>
-                  <a href="#" target="_blank" rel="noopener" title="Source code">
-                    <img src="assets/images/social-links/github.svg" alt="GitHub" loading="lazy" />
-                  </a>
-                </div>
-              </div>
-              <picture class="work-img">
-                <img loading="lazy" src="assets/images/work/agentic-ai.webp" alt="Agentic Workflow Framework" />
-              </picture>
-            </div>
+            <article>
+                <h3>Senior AI Engineer - DeepMind (2023-Present)</h3>
+                <ul>
+                    <li>Led development of enterprise RAG systems improving knowledge retrieval accuracy by 42%</li>
+                    <li>Designed agentic workflow framework reducing operational costs by 35%</li>
+                    <li>Optimized LLM inference pipelines achieving 4x throughput improvement</li>
+                    <li>Mentored junior engineers in best practices for production AI systems</li>
+                </ul>
+            </article>
             
-            <div class="work-box">
-              <div class="work-textbox">
-                <h3 class="h3">Document Intelligence Pipeline</h3>
-                <p class="work-text">
-                  End-to-end pipeline for processing and extracting insights from complex documents using multimodal AI.
-                </p>
-                <ol class="work-technologies">
-                  <li>Claude 3</li>
-                  <li>Unstructured.io</li>
-                  <li>LlamaIndex</li>
-                </ol>
-                <div class="work-links">
-                  <a href="#" target="_blank" rel="noopener" class="link">Explore this project</a>
-                  <a href="#" target="_blank" rel="noopener" title="Source code">
-                    <img src="assets/images/social-links/github.svg" alt="GitHub" loading="lazy" />
-                  </a>
-                </div>
-              </div>
-              <picture class="work-img">
-                <img loading="lazy" src="assets/images/work/document-ai.webp" alt="Document Intelligence Pipeline" />
-              </picture>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="experience" id="experience">
-        <div class="container">
-          <h2 class="h2">Professional Experience</h2>
-          <div class="timeline">
-            <div class="timeline-item">
-              <div class="timeline-date">2023 - Present</div>
-              <div class="timeline-content">
-                <h3 class="h3">Senior AI Engineer @DeepMind</h3>
-                <p>Leading the development of next-generation LLM architectures and agentic systems for enterprise applications.</p>
-                <ul class="timeline-skills">
-                  <li>LLM Optimization</li>
-                  <li>Agent Frameworks</li>
-                  <li>RAG Systems</li>
+            <article>
+                <h3>AI Research Engineer - OpenAI (2021-2023)</h3>
+                <ul>
+                    <li>Contributed to core model training and fine-tuning pipelines</li>
+                    <li>Developed evaluation frameworks for LLM performance metrics</li>
+                    <li>Implemented retrieval augmentation techniques for knowledge-intensive tasks</li>
+                    <li>Published 3 papers on efficient LLM deployment strategies</li>
                 </ul>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-date">2021 - 2023</div>
-              <div class="timeline-content">
-                <h3 class="h3">AI Research Engineer @OpenAI</h3>
-                <p>Contributed to the development of foundational models and deployment tooling for production applications.</p>
-                <ul class="timeline-skills">
-                  <li>Transformer Architectures</li>
-                  <li>Model Fine-tuning</li>
-                  <li>API Development</li>
+            </article>
+            
+            <article>
+                <h3>Machine Learning Engineer - NVIDIA (2019-2021)</h3>
+                <ul>
+                    <li>Optimized transformer models for GPU acceleration</li>
+                    <li>Built distributed training pipelines for large-scale language models</li>
+                    <li>Developed CUDA kernels for custom attention mechanisms</li>
+                    <li>Reduced training time by 28% through architectural improvements</li>
                 </ul>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-date">2019 - 2021</div>
-              <div class="timeline-content">
-                <h3 class="h3">Machine Learning Engineer @NVIDIA</h3>
-                <p>Developed GPU-optimized training pipelines for large-scale language models.</p>
-                <ul class="timeline-skills">
-                  <li>PyTorch</li>
-                  <li>CUDA Optimization</li>
-                  <li>Distributed Training</li>
+            </article>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>Master of Science in Computer Science - AI Specialization</h3>
+                <p>Stanford University, 2017-2019</p>
+                <p>Thesis: "Efficient Fine-tuning Strategies for Large Language Models"</p>
+            </article>
+            <article>
+                <h3>Bachelor of Technology in Computer Science</h3>
+                <p>Indian Institute of Technology, 2013-2017</p>
+            </article>
+        </section>
+
+        <section id="projects">
+            <h2>Key Projects</h2>
+            <article>
+                <h3>Enterprise RAG System</h3>
+                <ul>
+                    <li>Built hybrid search pipeline combining dense and sparse retrieval</li>
+                    <li>Implemented query routing and result reranking</li>
+                    <li>Deployed to production serving 10M+ queries/month</li>
                 </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            </article>
+            <article>
+                <h3>Agentic Workflow Framework</h3>
+                <ul>
+                    <li>Developed dynamic tool selection mechanism</li>
+                    <li>Implemented memory and planning capabilities</li>
+                    <li>Reduced human-in-the-loop interventions by 60%</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Document Intelligence Pipeline</h3>
+                <ul>
+                    <li>Created multimodal processing for PDFs, images, and tables</li>
+                    <li>Integrated vision transformers with LLMs</li>
+                    <li>Reduced manual document processing costs by 75%</li>
+                </ul>
+            </article>
+        </section>
 
-      <section class="article">
-        <div class="container">
-          <h2 class="h2" id="blog">My Articles</h2>
-          <div class="article-boxes">
-            <article class="article-box featured-article">
-              <div class="article-textbox">
-                <div>
-                  <h3 class="h3">Advanced RAG Techniques for Production Systems</h3>
-                  <p class="article-text">
-                    A comprehensive guide to implementing Retrieval Augmented Generation in production environments, covering hybrid search, query routing, and evaluation strategies.
-                  </p>
-                </div>
-                <div class="article-info">
-                  <a href="#" class="link" target="_blank" rel="noopener">Continue reading</a>
-                  <span class="reaction-count">
-                    <img src="./assets/images/heart-outline.svg" alt="heart" />
-                    892
-                  </span>
-                </div>
-              </div>
-              <picture class="article-illustration">
-                <img src="assets/images/featured-blog.webp" alt="RAG Architecture" loading="lazy" />
-              </picture>
+        <section id="publications">
+            <h2>Publications</h2>
+            <article>
+                <h3>"Efficient Retrieval-Augmented Generation for Knowledge-Intensive Tasks"</h3>
+                <p>NeurIPS 2023 | Gaggera, P., et al.</p>
             </article>
-            <article class="article-box">
-              <div class="article-textbox">
-                <div>
-                  <h3 class="h4">Building Autonomous AI Agents</h3>
-                  <p class="article-text">
-                    Practical guide to implementing agentic workflows with memory, tools, and planning capabilities using modern frameworks.
-                  </p>
-                </div>
-                <div class="article-info">
-                  <a href="#" class="link" target="_blank" rel="noopener">Continue reading</a>
-                  <span class="reaction-count">
-                    <img src="./assets/images/heart-outline.svg" alt="heart" loading="lazy" />
-                    647
-                  </span>
-                </div>
-              </div>
+            <article>
+                <h3>"Dynamic Tool Selection in Agentic Workflows"</h3>
+                <p>ICML 2023 | Gaggera, P., et al.</p>
             </article>
-            <article class="article-box">
-              <div class="article-textbox">
-                <div>
-                  <h3 class="h4">Optimizing LLM Applications for Production</h3>
-                  <p class="article-text">
-                    Techniques for improving latency, cost, and quality of LLM applications in production environments.
-                  </p>
-                </div>
-                <div class="article-info">
-                  <a href="#" class="link" target="_blank" rel="noopener">Continue reading</a>
-                  <span class="reaction-count">
-                    <img src="./assets/images/heart-outline.svg" alt="heart" loading="lazy" />
-                    1.2k
-                  </span>
-                </div>
-              </div>
+            <article>
+                <h3>"Multimodal Document Understanding with Large Language Models"</h3>
+                <p>ACL 2023 | Gaggera, P., et al.</p>
             </article>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="research" id="research">
-        <div class="container">
-          <h2 class="h2">Research Publications</h2>
-          <div class="publications">
-            <article class="publication">
-              <h3 class="h4">"Efficient Retrieval-Augmented Generation for Knowledge-Intensive Tasks"</h3>
-              <p class="publication-meta">NeurIPS 2023 | <span class="publication-authors">Gaggera, P., et al.</span></p>
-              <p class="publication-abstract">Novel approach to hybrid retrieval that improves RAG system performance by 37% on knowledge-intensive benchmarks.</p>
-              <a href="#" class="link" target="_blank" rel="noopener">Read Paper</a>
-            </article>
-            <article class="publication">
-              <h3 class="h4">"Dynamic Tool Selection in Agentic Workflows"</h3>
-              <p class="publication-meta">ICML 2023 | <span class="publication-authors">Gaggera, P., et al.</span></p>
-              <p class="publication-abstract">Framework for dynamic tool selection that improves agent task completion rates by 42% while reducing computational costs.</p>
-              <a href="#" class="link" target="_blank" rel="noopener">Read Paper</a>
-            </article>
-            <article class="publication">
-              <h3 class="h4">"Multimodal Document Understanding with Large Language Models"</h3>
-              <p class="publication-meta">ACL 2023 | <span class="publication-authors">Gaggera, P., et al.</span></p>
-              <p class="publication-abstract">Novel architecture combining vision transformers with LLMs for document understanding, achieving state-of-the-art on 3 benchmarks.</p>
-              <a href="#" class="link" target="_blank" rel="noopener">Read Paper</a>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="skills">
-        <div class="container">
-          <h2 class="h2" id="skills">My Toolkit</h2>
-          <div class="skills-imgs">
-            <img src="assets/images/skills/python.webp" alt="Python" class="skills-img" loading="lazy" title="Python">
-            <img src="assets/images/skills/pytorch.webp" alt="PyTorch" class="skills-img" loading="lazy" title="PyTorch">
-            <img src="assets/images/skills/tensorflow.webp" alt="TensorFlow" class="skills-img" loading="lazy" title="TensorFlow">
-            <img src="assets/images/skills/langchain.webp" alt="LangChain" class="skills-img" loading="lazy" title="LangChain">
-            <img src="assets/images/skills/llamaindex.webp" alt="LlamaIndex" class="skills-img" loading="lazy" title="LlamaIndex">
-            <img src="assets/images/skills/openai.webp" alt="OpenAI" class="skills-img" loading="lazy" title="OpenAI">
-            <img src="assets/images/skills/huggingface.webp" alt="Hugging Face" class="skills-img" loading="lazy" title="Hugging Face">
-            <img src="assets/images/skills/pinecone.webp" alt="Pinecone" class="skills-img" loading="lazy" title="Pinecone">
-            <img src="assets/images/skills/weaviate.webp" alt="Weaviate" class="skills-img" loading="lazy" title="Weaviate">
-            <img src="assets/images/skills/docker.webp" alt="Docker" class="skills-img" loading="lazy" title="Docker">
-          </div>
-        </div>
-      </section>
-
-      <section class="testimonials">
-        <div class="container">
-          <h2 class="h2">Testimonials</h2>
-          <ol class="testimonial-list">
-            <li class="testimonial">
-              <blockquote class="testimonial-text">
-                "Pavan's work on our enterprise RAG system transformed how we handle knowledge management. His deep understanding of both the theoretical and practical aspects of AI implementation was invaluable."
-              </blockquote>
-              <figure class="testimonial-author">
-                <img src="assets/images/testimonials/sam-altman.webp" alt="Sam Altman" loading="lazy" />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Sam Altman</h3>
-                  <p class="testimonial-author-job">CEO @OpenAI</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="testimonial">
-              <blockquote class="testimonial-text">
-                "Pavan is one of the most knowledgeable AI engineers I've worked with. His ability to bridge the gap between research and production is rare and extremely valuable."
-              </blockquote>
-              <figure class="testimonial-author">
-                <img src="assets/images/testimonials/dario-amodei.webp" alt="Dario Amodei" loading="lazy" />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Dario Amodei</h3>
-                  <p class="testimonial-author-job">CEO @Anthropic</p>
-                </figcaption>
-              </figure>
-            </li>
-          </ol>
-        </div>
-      </section>
-
-      <section class="contact">
-        <div class="container">
-          <h2 class="h2" id="contact">Send Message</h2>
-          <div class="contact-content">
-            <div class="contact-textbox">
-              <strong href="#" class="hire-alert">
-                <span class="indicator"></span>
-                Available for hire
-              </strong>
-              <p class="contact-text">
-                As a Generative AI Engineer, I build production-ready solutions using Large Language Models, RAG architectures, and Agentic AI workflows. I specialize in turning cutting-edge research into measurable business impact.
-              </p>
-              <p class="contact-text">
-                I'm passionate about pushing the boundaries of what's possible with AI while ensuring robustness, scalability, and real-world applicability.
-              </p>
-              <img src="assets/images/signatures.png" alt="Pavan Gaggera" class="signatures" loading="lazy" />
-            </div>
-            <form action="#" class="contact-form" netlify>
-              <div class="form-field">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" required />
-              </div>
-              <div class="form-field">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required inputmode="email" />
-              </div>
-              <div class="form-field">
-                <label for="message">How can I help you?</label>
-                <textarea name="message" id="message" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-cta">Send</button>
-            </form>
-          </div>
-        </div>
-      </section>
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>AWS Certified Machine Learning Specialty</li>
+                <li>Google Professional Machine Learning Engineer</li>
+                <li>DeepLearning.AI Natural Language Processing Specialization</li>
+            </ul>
+        </section>
     </main>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <nav>
-            <ol class="footer-links">
-              <li class="footer-link">
-                <a title="GitHub" href="https://github.com/yourusername" target="_blank" rel="noopener">
-                  <img loading="lazy" src="assets/images/social-links/github.svg" alt="GitHub" />
-                </a>
-              </li>
-              <li class="footer-link">
-                <a title="Twitter" href="https://twitter.com/yourusername" target="_blank" rel="noopener">
-                  <img loading="lazy" src="assets/images/social-links/twitter.svg" alt="Twitter" />
-                </a>
-              </li>
-              <li class="footer-link">
-                <a title="Linkedin" href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">
-                  <img loading="lazy" src="assets/images/social-links/linkedin.svg" alt="Linkedin" />
-                </a>
-              </li>
-              <li class="footer-link">
-                <a title="Medium" href="https://medium.com/yourusername" target="_blank" rel="noopener">
-                  <img loading="lazy" src="assets/images/social-links/medium.svg" alt="Medium" />
-                </a>
-              </li>
-            </ol>
-          </nav>
-          <p class="footer-text">
-            &copy; <span>2024</span> - Designed & developed by <a target="_blank" rel="noopener" href="#">Pavan Gaggera</a>
-          </p>
-          <label class="theme-switch" for="theme-switch">
-            <span>Dark Theme</span>
-            <input type="checkbox" id="theme-switch" role="switch" />
-          </label>
-        </div>
-      </div>
+    <footer>
+        <p>References available upon request</p>
+        <p>&copy; 2024 Pavan Gaggera - All rights reserved</p>
     </footer>
-  </body>
+</body>
 </html>
